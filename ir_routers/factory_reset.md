@@ -5,14 +5,14 @@
 
 To erase the current startup configuration on a Cisco IR809 router, you can use the write erase command:
 
-    Log in to the router and enter privileged EXEC mode by entering enable and then entering the enable password command
-    Enter into config terminal mode 
-    Enter config-register 0x2102
-    Enter write erase to erase the NVRAM file system and remove all files
-    Confirm that you want to erase all files
-    Enter reload
-    When prompted whether to save the configuration, enter no
-    Confirm that you want to reload the switch 
+- Log in to the router and enter privileged EXEC mode by entering enable and then entering the enable password command
+- Enter into config terminal mode 
+- Enter config-register 0x2102
+- Enter write erase to erase the NVRAM file system and remove all files
+- Confirm that you want to erase all files
+- Enter reload
+- When prompted whether to save the configuration, enter no
+- Confirm that you want to reload the switch 
 
 You can also reset the router to factory defaults by pressing and holding the reset button while powering up the router.
 
